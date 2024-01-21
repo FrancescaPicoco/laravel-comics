@@ -1,18 +1,18 @@
 <header>
-    <div id="header-cont">
-        <section>
-           <img src="../asset/img/dc-logo.png">
+    <div class="me-auto ms-auto headerCont">
+        <section class="d-flex justify-content-between align-items-center">
+           <img src="../asset/img/dc-logo.png" class="imgHead">
             <nav class="navbar-cont">
-              <a href="#" class="aHeader">CHARACTERS</a>
-              <a href="#" class="aHeader">COMICS</a>
-              <a href="#" class="aHeader">MOVIES</a>
-              <a href="#" class="aHeader">TV</a>
-              <a href="#" class="aHeader">GAMES</a>
-              <a href="#" class="aHeader">COLLECTIBLES</a>
-              <a href="#" class="aHeader">VIDEOS</a>
-              <a href="#" class="aHeader">FANS</a>
-              <a href="#" class="aHeader">NEWS</a>
-              <a href="#" class="aHeader">SHOP &#129171;</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">CHARACTERS</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">COMICS</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">MOVIES</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">TV</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">GAMES</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">COLLECTIBLES</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">VIDEOS</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">FANS</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">NEWS</a>
+              <a href="#" class="mx-2 text-decoration-none text-dark">SHOP &#129171;</a>
             </nav>
             <div class="search">
             <div class="input-group">
@@ -27,29 +27,3 @@
         </section>
     </div>   
 </header>    
-
-<style scoped>
-header{
-    background-color: aliceblue;
-}
-#header-cont{
-    width: 80vw;
-    margin-right: auto;
-    margin-left: auto;
-}
-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-}
-img{
-    width: 60px;
-    height: 60px;
-}
-.aHeader{
-    text-decoration:none;
-    color:black;
-}
-
-</style>

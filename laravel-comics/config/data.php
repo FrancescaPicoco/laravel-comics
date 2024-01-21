@@ -129,7 +129,7 @@ return [
             "description" => "COMIC SHOP LOCATOR"
         ],
         [
-            "icn"=>"../asset/img/buy-dc-power-visa.svg",
+            "icn"=>"../asset/img/buy-dc-power-visa.png",
             "description" => "DC POWER VISA"
         ],
     ]

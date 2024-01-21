@@ -1,4 +1,4 @@
-<div class="footerIcn-container">
+<div class="footerIcn-container d-flex justify-content-between m-auto w-75 align-items-center">
     <div class="left">
         <button type="button" class="btn btn-outline-primary">SING-UP NOW!</button>
     </div>
@@ -11,17 +11,4 @@
         <img src="../asset/img/footer-periscope.png" class="sizeImg m-2">            
     </div>
 </div>
-
-<style scoped>
-    .footerIcn-container{
-        display:flex;
-        justify-content: between;
-        width:80%;
-        margin: auto;
-    }
-    .sizeImg{
-        width:70%;
-        height: 80%;
-    }
-</style>
 
