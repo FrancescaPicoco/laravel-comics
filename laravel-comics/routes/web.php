@@ -18,7 +18,7 @@ Route::get('/dcComics', function (){
 Route::get('/', function () {
     $prova=[
         "messaggio" => "Buonasera",
-        "nome" => "Stronza"
+        "nome" => "Guyss"
     ];
     return view('welcome' , $prova);
 });
